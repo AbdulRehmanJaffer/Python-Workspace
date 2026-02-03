@@ -25,8 +25,12 @@
 #d = False
 #print("Type of d", type(d))
 
-text = str(input("Enter a string"))
-revText = text[::-1]
-text = revText
-print("Your Reversed Text is:")
-print(text)
+#text = str(input("Enter a string"))
+#revText = text[::-1]
+#text = revText
+#print("Your Reversed Text is:")
+
+#print(text)
+
+message = "Congratulations"
+print(message.upper())
