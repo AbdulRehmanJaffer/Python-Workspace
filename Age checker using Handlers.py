@@ -8,8 +8,8 @@ try:
     else:
         print("It is odd")
 
-except ValueError as error:
-    print("Error: ", error)
+except ValueError as ex:
+    print("Error: ", ex)
 
 finally:
     print("Done!")
